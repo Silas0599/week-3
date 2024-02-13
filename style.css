@@ -1,0 +1,79 @@
+
+
+body
+    {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer"
+    ;
+    }
+
+
+*   {
+    margin: 0;
+    padding: 0;
+    }
+
+header
+    {
+    background-color: blue;
+    color: white;
+    grid-area: header;
+    background-image: url(images/banner4.jpeg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    }
+
+nav
+    {
+    background-color: #014e2e;
+    grid-area: nav;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    }
+
+main
+    {
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+    min-height: 80vh;
+    }
+
+aside
+    {
+    background-color: lightgreen;
+    grid-area: aside;
+    }
+
+footer
+{
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav img {
+    height: 100%;
+}
+
