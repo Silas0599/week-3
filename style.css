@@ -55,25 +55,28 @@ aside
     }
 
 footer
-{
+    {
     background-color: darkgreen;
     color: white;
     grid-area: footer;
-}
+    }
 
-nav ul {
+nav ul 
+    {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     width: 100%;
-}
+    }   
 
-nav a {
+nav a 
+    {
     text-decoration: none;
     color: white;
-}
+    }
 
-nav img {
+nav img 
+    {
     height: 100%;
-}
+    }
 
